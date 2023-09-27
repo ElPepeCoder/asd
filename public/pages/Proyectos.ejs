@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Mi Nombre</h1>
+        <p>Desarrollador Web</p>
+        <button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">☰</button>
+    </header>
+    
+    <nav class="offcanvas offcanvas-start bg-dark text-white" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Menu</h5>
+            <button type="button" class="rounded-circle btn btn-outline-danger text-white bg-transparent" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav mb-2 mb-lg-0 gap-3">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="Proyectos">Proyectos</a></li>
+                <li><a href="habilidades">Habilidades</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <p2>Uno de los proyectos mas destacados en mi carrera de programador es esta misma pagina web</p2>
+        
+        <!-- Proyecto 1 -->
+<!-- En proyectos.html -->
+<div class="proyecto">
+    <h3>KrakenMC Network</h3>
+    <p>Servidor de Minecraft inspirado en la modalidad del PotPvp entre Otras modalidades, si quieres conocer mas dale a ver proyecto</p>
+    <a href="kraken">Ver proyecto</a> <!-- Agrega el enlace a KrakenMC.html -->
+</div>
+
+        
+        <!-- Proyecto 2 -->
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción detallada de tu segundo proyecto. Destaca los logros y aprendizajes.</p>
+            <a href="#">Ver proyecto</a>
+        </div>
+        
+        <!-- Puedes agregar más proyectos aquí -->
+        
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Mi Nombre</p>
+    </footer>
+</body>
+<script src="/assets/js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

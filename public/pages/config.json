@@ -1,0 +1,16 @@
+{
+  "redirects": {
+    "/discord": "https://discord.gg/xd"
+  },
+  "errorPage": "404.ejs",
+  "pages": {
+    "/": "index.ejs",
+    "/kraken": "krakenmc.ejs",
+    "/kraken/server": "test.ejs",
+    "/proyectos": "Proyectos.ejs",
+    "/habilidades": "habilidades.ejs",
+    "/contacto": "contacto.ejs",
+    "/pruebas": "pruebas.ejs",
+    "/noticias": "noticias.ejs"
+  }
+}

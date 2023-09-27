@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+</head>
+<body>
+  <h1>404 Not Found</h1>
+  <a href="/">Home</a>
+  <!-- Texto PLANO -->
+  <%= %>
+
+  <!-- Compilador HTML -->
+  <%- %>
+
+  <!-- Inlcuir otros archivos EJS -->
+    <!-- Al incluir un archivo se toma como referencia el archivo donde se trabajo  -->
+    <%- include("./pre/footer.ejs") %>
+
+
+    
+  <!-- Ejemplo de Cliclos con lista -->
+  <% let cards = ["Hello", "World", "Devbash", "Kraken", "Team"] %>
+  <% for (let i = 0; i < 5; i++) { %>
+    <div class="card">
+      <h2>Card N° <%= i + 1 %></h2>
+      <div><%= cards[i] %></div>
+    </div>
+  <% } %>
+</body>
+</html>

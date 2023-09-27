@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias - Mi Portafolio</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Noticias</h1>
+    </header>
+    <main>
+        <section class="news-list">
+            <% for (let i = 0; i < noticias.length; i++) { %>
+                <article class="news-item">
+                    <h2><%= noticias[i].titulo %></h2>
+                    <p><%= noticias[i].fecha %></p>
+                    <p><%= noticias[i].contenido %></p>
+                </article>
+            <% } %>
+        </section>
+    </main>
+</body>
+</html>

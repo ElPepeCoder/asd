@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Futurista</title>
+    <link rel="stylesheet" href="/ruta/a/tu/styles.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Enlace a FontAwesome -->
+    <style>
+        /* Estilos CSS personalizados para esta página específica */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        /* Encabezado con animación de fondo */
+        header {
+            background-image: linear-gradient(135deg, #ff0000, #00ff00,  #00ff00, #ff0000);
+            background-size: 200% 200%;
+            animation: gradient-animation 10s linear infinite;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 200% 200%;
+            }
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        /* Contenedor principal con animación de entrada */
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Párrafos con efecto de parpadeo */
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            animation: blink 1.5s infinite alternate;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.5;
+            }
+        }
+
+        /* Botón de llamada a la acción con efecto hover */
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Íconos de redes sociales con animación de giro */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a:hover {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Sitio Futurista</h1>
+    </header>
+
+    <main>
+        <p>Bienvenido a mi sitio web futurista. Explora las posibilidades del futuro con nosotros.</p>
+        <a class="cta-button" href="/proyectos">Ver proyectos</a>
+
+        <!-- Íconos de redes sociales con animación de giro -->
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- Agrega más íconos de redes sociales según tus preferencias -->
+        </div>
+    </main>
+
+    <footer>
+        <!-- Pie de página u otros elementos de pie de página -->
+    </footer>
+</body>
+</html>
